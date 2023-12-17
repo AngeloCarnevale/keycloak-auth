@@ -6,7 +6,7 @@
         "BaseUrl": "http://localhost:8181",
         "RestApi": {
             "ClientId": "demo-backend",
-            "ClientSecret": "M1Cq8AG4vUIY0CvGTcMLinypwqRDRwAg"
+            "ClientSecret": "r3cgMuFcS9p94IL0XHdKtOC9mwYpQwxF"
         }
     }
 }

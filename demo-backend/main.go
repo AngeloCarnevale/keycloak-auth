@@ -1,7 +1,7 @@
 package main
 
 import (
-	"demo-backend/api/handlers/middlewares"
+	"demo-backend/api/middlewares"
 	"demo-backend/api/routes"
 	"fmt"
 	"log"
@@ -19,7 +19,7 @@ func main() {
 		ServerHeader: "Fiber",
 	})
 	
-	middlewares.InitFiberMiddleware(app, routes.InitPublicRoutes, nil)
+	middlewares.InitFiberMiddleware(app, routes.InitPublicRoutes, routes.InitProtectedRoutes)
 
 	var listenIp = viper.GetString("ListenIp")
 	var listenPort = viper.GetString("ListenPort")
