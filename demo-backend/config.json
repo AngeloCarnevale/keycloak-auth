@@ -1,0 +1,12 @@
+{
+    "ListenIp": "127.0.0.1",
+    "ListenPort": "3005",
+    "KeyCloak": {
+        "Realm": "my-demo",
+        "BaseUrl": "http://localhost:8181",
+        "RestApi": {
+            "ClientId": "demo-backend",
+            "ClientSecret": "M1Cq8AG4vUIY0CvGTcMLinypwqRDRwAg"
+        }
+    }
+}
